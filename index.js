@@ -1,6 +1,6 @@
-const express = require('express')
+const Koa = require('koa')
 
-const app = express()
+const app = new Koa()
 const PORT = 4000
 
 app.listen(PORT, () => {
