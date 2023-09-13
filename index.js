@@ -5,7 +5,7 @@ const PORT = 4000
 
 app.use(async ctx => {
     const p = Date.now();
-    ctx.body = 'API RUNNING🥳' + '\n\n' + p
+    ctx.body = 'API RUNNING🥳~~~~~~~' + '\n\n' + p
 })
 
 app.listen(30000)
